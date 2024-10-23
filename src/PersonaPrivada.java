@@ -1,13 +1,12 @@
 public class PersonaPrivada {
-    String nombre;
-    int edad;
-    double altura;
+    private String nombre;
+    private int edad;
+    private double altura;
 
     public PersonaPrivada(String nombre, int edad, double altura) {
         this.nombre = nombre;
         this.edad = edad;
         this.altura = altura;
-
     }
 
     public void mostrarDatos() {
@@ -22,5 +21,3 @@ public class PersonaPrivada {
         }
     }
 }
-
-
